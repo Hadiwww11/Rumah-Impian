@@ -1,0 +1,216 @@
+:root{
+    ---pr-color : #048853;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3fff4;
+}
+
+/* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+
+.accsent-img {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(---pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Hero Section */
+
+#hero {
+    background:linear-gradient(160deg, var(---pr-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-tagline h1{
+    color: #Fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary{
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    color: var(---pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Layanan Section */
+
+
+#layanan{
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(---pr-color);
+}
+
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color:#Fff;
+    padding: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(---pr-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+.card-layanan h3{
+    color: var(---pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+
+.card-layanan p{
+    color: #000;
+    font-size: 14px;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+/* Hover */
+
+
+.card-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background:linear-gradient(160deg, var(---pr-color),#000);
+    padding: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+
+.card-layanan:hover .circle-icon{
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-in;
+
+}
+
+.card-layanan:hover p{
+    color: #fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+
+}
+
+/* Search Section */
+
+#search{
+    background-image: url(../Assets/img/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
