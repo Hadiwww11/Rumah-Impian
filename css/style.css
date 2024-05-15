@@ -1,11 +1,10 @@
-:root{
-    ---pr-color : #048853;
+:root {
+    ---pr-color: #048853;
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F3fff4;
+    background-color: #f3fff4;
 }
 
 /* Navbar Style */
@@ -14,7 +13,7 @@ body {
     z-index: 3;
 }
 
-*{
+* {
     z-index: 2;
 }
 
@@ -58,24 +57,24 @@ body {
 /* Hero Section */
 
 #hero {
-    background:linear-gradient(160deg, var(---pr-color), #000);
+    background: linear-gradient(160deg, var(---pr-color), #000);
     height: 100vh;
     width: 100%;
 }
 
-.img-hero{
+.img-hero {
     height: 100%;
     z-index: 1;
 }
 
-.hero-tagline h1{
-    color: #Fff;
+.hero-tagline h1 {
+    color: #fff;
     font-weight: 700;
     font-size: 50px;
     line-height: 72px;
 }
 
-.hero-tagline p{
+.hero-tagline p {
     font-size: 16px;
     color: #fff;
     margin-bottom: 60px;
@@ -84,7 +83,7 @@ body {
     width: 85%;
 }
 
-.button-lg-primary{
+.button-lg-primary {
     width: 237px;
     height: 70px;
     background-color: #fff;
@@ -96,23 +95,22 @@ body {
 
 /* Layanan Section */
 
-
-#layanan{
+#layanan {
     padding: 100px 0;
 }
 
-h2{
+h2 {
     font-size: 48px;
     font-weight: 500;
     color: var(---pr-color);
 }
 
-.sub-title{
+.sub-title {
     font-size: 18px;
     color: #000;
 }
 
-.card-layanan{
+.card-layanan {
     width: 100%;
     height: 313px;
     border-radius: 5px;
@@ -120,17 +118,17 @@ h2{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background-color:#Fff;
+    background-color: #fff;
     padding: 40px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
-    transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
-.circle-icon{
+.circle-icon {
     width: 70px;
     height: 70px;
     background-color: var(---pr-color);
@@ -139,37 +137,36 @@ h2{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    transition: all .1s ease-in;
-    -webkit-transition: all .1s ease-in;
-    -moz-transition: all .1s ease-in;
-    -ms-transition: all .1s ease-in;
-    -o-transition: all .1s ease-in;
+    transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
 }
 
-.card-layanan h3{
+.card-layanan h3 {
     color: var(---pr-color);
     font-size: 24px;
-    transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
-.card-layanan p{
+.card-layanan p {
     color: #000;
     font-size: 14px;
-    transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
 
 /* Hover */
 
-
-.card-layanan:hover{
+.card-layanan:hover {
     width: 100%;
     height: 313px;
     border-radius: 5px;
@@ -177,40 +174,275 @@ h2{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background:linear-gradient(160deg, var(---pr-color),#000);
+    background: linear-gradient(160deg, var(---pr-color), #000);
     padding: 40px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
-    transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
-.card-layanan:hover .circle-icon{
+.card-layanan:hover .circle-icon {
     background-color: #fff;
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
-.card-layanan:hover h3{
+.card-layanan:hover h3 {
     color: #fff;
     font-size: 24px;
-    transition: all .2s ease-in;
-
+    transition: all 0.2s ease-in;
 }
 
-.card-layanan:hover p{
+.card-layanan:hover p {
     color: #fff;
     font-size: 14px;
-    transition: all .2s ease-in;
-
+    transition: all 0.2s ease-in;
 }
 
 /* Search Section */
 
-#search{
+#search {
     background-image: url(../Assets/img/background.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#search h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+#search p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari {
+    height: 88px;
+}
+.input-cari:focus {
+    border: none;
+}
+
+.input-cari .button-secondary{
+    width: 200px;
+    height: 88px;
+    background-size: rgba(255,255,255,0.8);
+    color: var(---pr-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 10px 0 10px;
+    -webkit-border-radius: 0 10px 0 10px;
+    -moz-border-radius: 0 10px 0 10px;
+    -ms-border-radius: 0 10px 0 10px;
+    -o-border-radius: 0 10px 0 10px;
+}
+.input-cari .button-primary {
+    height: 88px;
+    background-color: var(---pr-color);
+    color: #fff;
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+    -webkit-border-radius: 0 10px 0 10px;
+    -moz-border-radius: 0 10px 0 10px;
+    -ms-border-radius: 0 10px 0 10px;
+    -o-border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 0 0;
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0;
+    -ms-border-radius: 0 0 0 0;
+    -o-border-radius: 0 0 0 0;
+}
+
+.nav-tabs .navlink.active{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(---pr-color);
+    border-radius: 0 9px 0 0;
+    font-weight: 500;
+    -webkit-border-radius: 0 9px 0 0;
+    -moz-border-radius: 0 9px 0 0;
+    -ms-border-radius: 0 9px 0 0;
+    -o-border-radius: 0 9px 0 0;
+}
+
+.nav-tabs .nav-link {
+    color: #000;
+    border: none;
+}
+
+/* Section Rekomendasi */
+
+.card {
+    height: 460px;
+    width: 95%;
+    border: none;
+}
+
+.card-body h4 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: .8rem;
+}
+
+.card-body p {
+    color: #141414;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover {
+    background: linear-gradient(170deg, var(---pr-color), #007245, #007245, #000 );
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4 {
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+.card-fasilitas {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #fff;
+}
+
+.card-fasilitas span {
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p {
+    font-size: 12px;
+    color: #000;
+}
+
+/* Card Fasilitas */
+
+.button-fitur {
+    width: 238px;
+    height: 63px;
+    background-color: var(---pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+#fitur h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-fitur h5 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-fitur h6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-fitur button {
+    background-color: var(---pr-color);
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.button-arrow-left{
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(---pr-color);
+    padding: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.button-arrow-right{
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(---pr-color);
+    padding: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
